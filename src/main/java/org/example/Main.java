@@ -17,7 +17,7 @@ public class Main {
 
         driver = new ChromeDriver();
 
-        //? andreyolegovich.ru
+        //? https://www.andreyolegovich.ru/qa/selenium/java/#example
         driver.get("https://www.urn.su/qa/ui/basic_test/");
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
 
